@@ -1,0 +1,623 @@
+/* Style for Main Window START 
+---------------------------------------------------------------------------------------------- */
+
+#MainWindow {
+    background-color: #F0DDDD
+}
+
+#full_sidebar {
+    background-color: #4A9782
+}
+
+#icon_sidebar {
+    background-color: #4A9782
+}
+
+#header {
+    background-color: #DCD0A8
+}
+
+#home_page {
+    background-color: #FFF9E5
+}
+
+
+
+/* ----------------------------------------------------------------------------------------------------------
+ICON SIDEBAR */
+
+    /* ----------------------------------------------------------------------------------------------------------
+    HOME BUTTON
+    ---------------------------------------------------------------------------------------------------------- */ 
+
+    #home_icon {
+        color: #FFF9E5;
+        border-radius: 24px;
+        background: qradialgradient(
+            cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+            radius: 1.35, stop: 0 #FFF9E5, stop: 1 #FFF9E5
+            );
+        padding: 5px;
+        }
+
+    #home_icon:checked {
+        background: qradialgradient(
+            cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+            radius: 1.35, stop: 0 #DD8864, stop: 1 #DD8864
+            );
+        }
+
+    /* ----------------------------------------------------------------------------------------------------------
+    Dashboard BUTTON
+    ---------------------------------------------------------------------------------------------------------- */ 
+
+    #dashboard_icon {
+        color: #FFF9E5;
+        border-radius: 24px;
+        border-style: outset;
+        background: qradialgradient(
+            cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+            radius: 1.35, stop: 0 #FFF9E5, stop: 1 #FFF9E5
+            );
+        padding: 5px;
+    }
+
+    #dashboard_icon:checked {
+        border-style: inset;
+        background: qradialgradient(
+            cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+            radius: 1.35, stop: 0 #DD8864, stop: 1 #DD8864
+            );
+    }
+
+    /* ----------------------------------------------------------------------------------------------------------
+    Report BUTTON
+    ---------------------------------------------------------------------------------------------------------- */ 
+    #report_icon {
+        color: #FFF9E5;
+        border-radius: 24px;
+        border-style: outset;
+        background: qradialgradient(
+            cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+            radius: 1.35, stop: 0 #FFF9E5, stop: 1 #FFF9E5
+            );
+        padding: 5px;
+    }
+
+    #report_icon:checked {
+        border-style: inset;
+        background: qradialgradient(
+            cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+            radius: 1.35, stop: 0 #DD8864, stop: 1 #DD8864
+            );
+    }
+
+    /* ----------------------------------------------------------------------------------------------------------
+    Product BUTTON
+    ---------------------------------------------------------------------------------------------------------- */ 
+    
+    #scm_label {
+        background-color: #DCD0A8;
+        border-radius: 24px;
+        border-style: outset;
+        background: qradialgradient(
+            cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+            radius: 1.35, stop: 0 #DCD0A8, stop: 1 #DCD0A8
+            );
+        padding: 5px;
+    }
+
+    /* ----------------------------------------------------------------------------------------------------------
+    PO and DO BUTTON
+    ---------------------------------------------------------------------------------------------------------- */ 
+    #poDo_icon {
+        color: #FFF9E5;
+        border-radius: 24px;
+        border-style: outset;
+        background: qradialgradient(
+            cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+            radius: 1.35, stop: 0 #FFF9E5, stop: 1 #FFF9E5
+            );
+        padding: 5px;
+    }
+
+    #poDo_icon:checked {
+        border-style: inset;
+        background: qradialgradient(
+            cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+            radius: 1.35, stop: 0 #DD8864, stop: 1 #DD8864
+            );
+    }
+
+    /* ----------------------------------------------------------------------------------------------------------
+    Product BUTTON
+    ---------------------------------------------------------------------------------------------------------- */ 
+    #product_icon {
+        color: #FFF9E5;
+        border-radius: 24px;
+        border-style: outset;
+        background: qradialgradient(
+            cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+            radius: 1.35, stop: 0 #FFF9E5, stop: 1 #FFF9E5
+            );
+        padding: 5px;
+    }
+
+    #product_icon:checked {
+        border-style: inset;
+        background: qradialgradient(
+            cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+            radius: 1.35, stop: 0 #DD8864, stop: 1 #DD8864
+            );
+    }
+
+    /* ----------------------------------------------------------------------------------------------------------
+    Invoice BUTTON
+    ---------------------------------------------------------------------------------------------------------- */ 
+    #invoice_icon {
+        color: #FFF9E5;
+        border-radius: 24px;
+        border-style: outset;
+        background: qradialgradient(
+            cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+            radius: 1.35, stop: 0 #FFF9E5, stop: 1 #FFF9E5
+            );
+        padding: 5px;
+    }
+
+    #invoice_icon:checked {
+        border-style: inset;
+        background: qradialgradient(
+            cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+            radius: 1.35, stop: 0 #DD8864, stop: 1 #DD8864
+            );
+    }
+
+    /* ----------------------------------------------------------------------------------------------------------
+    Exit BUTTON
+    ---------------------------------------------------------------------------------------------------------- */ 
+
+    #exit_icon {
+        color: #FFF9E5;
+        border-radius: 24px;
+        border-style: outset;
+        background: qradialgradient(
+            cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+            radius: 1.35, stop: 0 #FFF9E5, stop: 1 #FFF9E5
+            );
+        padding: 5px;
+    }
+
+    /* ----------------------------------------------------------------------------------------------------------
+    Widget Spacer
+    ---------------------------------------------------------------------------------------------------------- */
+
+    #icon_spacer1 {
+        background-color: #36816C
+    }
+
+    #icon_spacer2 {
+        background-color: #36816C
+    }
+
+/* ICON SIDEBAR END
+---------------------------------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------------------------------------------------
+FULL SIDEBAR */
+
+    /* ----------------------------------------------------------------------------------------------------------
+    HOME BUTTON
+    ---------------------------------------------------------------------------------------------------------- */ 
+
+    #home_full {
+        text-align: left;
+        background-color: #FFF9E5;
+        border-radius: 24px;
+        background: qradialgradient(
+            cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+            radius: 1.35, stop: 0 #FFF9E5, stop: 1 #FFF9E5
+            );
+        padding: 12px;
+        }
+    
+    #home_full:hover {
+        background: qradialgradient(
+            cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+            radius: 1.35, stop: 0 #e0d9bf, stop: 1 #e0d9bf
+            );
+    }
+
+    #home_full:checked {
+        background: qradialgradient(
+            cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+            radius: 1.35, stop: 0 #DD8864, stop: 1 #DD8864
+            );
+        }
+
+    /* ----------------------------------------------------------------------------------------------------------
+    Dashboard BUTTON
+    ---------------------------------------------------------------------------------------------------------- */ 
+
+    #dashboard_full {
+        text-align: left;
+        background-color: #FFF9E5;
+        border-radius: 24px;
+        border-style: outset;
+        background: qradialgradient(
+            cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+            radius: 1.35, stop: 0 #FFF9E5, stop: 1 #FFF9E5
+            );
+        padding: 12px;
+    }
+
+    #dashboard_full:hover {
+        background: qradialgradient(
+            cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+            radius: 1.35, stop: 0 #e0d9bf, stop: 1 #e0d9bf
+            );
+    }
+
+    #dashboard_full:checked {
+        border-style: inset;
+        background: qradialgradient(
+            cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+            radius: 1.35, stop: 0 #DD8864, stop: 1 #DD8864
+            );
+    }
+
+    /* ----------------------------------------------------------------------------------------------------------
+    Report BUTTON
+    ---------------------------------------------------------------------------------------------------------- */ 
+    #report_full {
+        text-align: left;
+        background-color: #FFF9E5;
+        border-radius: 24px;
+        border-style: outset;
+        background: qradialgradient(
+            cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+            radius: 1.35, stop: 0 #FFF9E5, stop: 1 #FFF9E5
+            );
+        padding: 12px;
+    }
+
+    #report_full:hover {
+        background: qradialgradient(
+            cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+            radius: 1.35, stop: 0 #e0d9bf, stop: 1 #e0d9bf
+            );
+    }
+
+    #report_full:checked {
+        border-style: inset;
+        background: qradialgradient(
+            cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+            radius: 1.35, stop: 0 #DD8864, stop: 1 #DD8864
+            );
+    }
+
+    /* ----------------------------------------------------------------------------------------------------------
+    PO and DO BUTTON
+    ---------------------------------------------------------------------------------------------------------- */ 
+    #poDo_full {
+        text-align: left;
+        background-color: #FFF9E5;
+        border-radius: 24px;
+        border-style: outset;
+        background: qradialgradient(
+            cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+            radius: 1.35, stop: 0 #FFF9E5, stop: 1 #FFF9E5
+            );
+        padding: 12px;
+    }
+
+    #poDo_full:hover {
+        background: qradialgradient(
+            cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+            radius: 1.35, stop: 0 #e0d9bf, stop: 1 #e0d9bf
+            );
+    }
+
+    #poDo_full:checked {
+        border-style: inset;
+        background: qradialgradient(
+            cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+            radius: 1.35, stop: 0 #DD8864, stop: 1 #DD8864
+            );
+    }
+
+    /* ----------------------------------------------------------------------------------------------------------
+    Product BUTTON
+    ---------------------------------------------------------------------------------------------------------- */ 
+    #product_full {
+        text-align: left;
+        background-color: #FFF9E5;
+        border-radius: 24px;
+        border-style: outset;
+        background: qradialgradient(
+            cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+            radius: 1.35, stop: 0 #FFF9E5, stop: 1 #FFF9E5
+            );
+        padding: 12px;
+    }
+
+    #product_full:hover {
+        background: qradialgradient(
+            cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+            radius: 1.35, stop: 0 #e0d9bf, stop: 1 #e0d9bf
+            );
+    }
+
+    #product_full:checked {
+        border-style: inset;
+        background: qradialgradient(
+            cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+            radius: 1.35, stop: 0 #DD8864, stop: 1 #DD8864
+            );
+    }
+
+    /* ----------------------------------------------------------------------------------------------------------
+    Invoice BUTTON
+    ---------------------------------------------------------------------------------------------------------- */ 
+    #invoice_full {
+        text-align: left;
+        background-color: #FFF9E5;
+        border-radius: 24px;
+        border-style: outset;
+        background: qradialgradient(
+            cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+            radius: 1.35, stop: 0 #FFF9E5, stop: 1 #FFF9E5
+            );
+        padding: 12px;
+    }
+
+    #invoice_full:hover {
+        background: qradialgradient(
+            cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+            radius: 1.35, stop: 0 #e0d9bf, stop: 1 #e0d9bf
+            );
+    }
+
+    #invoice_full:checked {
+        border-style: inset;
+        background: qradialgradient(
+            cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+            radius: 1.35, stop: 0 #DD8864, stop: 1 #DD8864
+            );
+    }
+
+    /* ----------------------------------------------------------------------------------------------------------
+    Exit BUTTON
+    ---------------------------------------------------------------------------------------------------------- */ 
+    #exit_full {
+        text-align: left;
+        background-color: #FFF9E5;
+        border-radius: 24px;
+        border-style: outset;
+        background: qradialgradient(
+            cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+            radius: 1.35, stop: 0 #FFF9E5, stop: 1 #FFF9E5
+            );
+        padding: 12px;
+    }
+
+    #exit_full:hover {
+        background: qradialgradient(
+            cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+            radius: 1.35, stop: 0 #e0d9bf, stop: 1 #e0d9bf
+            );
+    }
+
+    /* ----------------------------------------------------------------------------------------------------------
+    Widget Spacer
+    ---------------------------------------------------------------------------------------------------------- */
+
+    #full_spacer1 {
+        background-color: #36816C
+    }
+
+    #full_spacer2 {
+        background-color: #36816C
+    }
+
+/* FULL SIDEBAR END
+---------------------------------------------------------------------------------------------------------- */
+
+/*----------------------------------------------------------------------------------------------------------
+PO AND DO PAGE START */
+
+    /* poDo Tab widget */
+    QTabWidget::pane {
+        background: transparent;
+        border: none
+    }
+
+    QTabBar {
+        background: #FFE99F;
+    }
+
+    #widget_empty {
+        background-color: #FFF9E5;
+        border-top: 20px #FFE99F;
+    }
+
+    QTabBar::tab {
+        border-radius: 16px;
+        height: 50px;
+        width: 125;
+        font-family: "Montserrat";
+        font-size: 12px;
+        margin-left: 12px;
+        margin-right: 12px;
+        margin-bottom: 12px;
+        margin-top: 12px;
+    }
+
+    QTabBar::tab:selected {
+        background: #DD8864;
+    }
+    
+    QTabBar::tab:!selected:hover {
+        background: #DCD0A8;
+    }
+
+    QTabBar::tab:!selected {
+        background: #FFF9E5;
+    }
+
+    #poDo_page_footer {
+        background-color: #FFE99F;
+    }
+
+    #poDo_page_delete_btn {
+        border: 2px solid white;
+        border-radius: 10px;
+        padding: 2px;
+        background: white;
+        width: 60px
+    }
+
+    #poDo_page_delete_btn::hover {
+        border: 2px solid #DCD0A8;
+        border-radius: 10px;
+        background: #DCD0A8;
+    }
+
+    #poDo_page_delete_btn::checked {
+        border: 2px solid #DD8864;
+        border-radius: 10px;
+        background: #DD8864;
+    }
+
+    #poDo_page_edit_btn {
+        border: 2px solid white;
+        border-radius: 10px;
+        padding: 2px;
+        background: white;
+        width: 60px;
+    }
+
+    #poDo_page_edit_btn::hover {
+        border: 2px solid #DCD0A8;
+        border-radius: 10px;
+        background: #DCD0A8;
+    }
+
+    #poDo_page_edit_btn::checked {
+        border: 2px solid #DD8864;
+        border-radius: 10px;
+        background: #DD8864;
+    }
+
+    #po_tab_add_po_btn {
+        border: 2px solid black;
+        border-radius: 16px;
+        padding: 2px;
+        background: white;
+        width: 128px;
+    }
+
+    #po_tab_add_po_btn::hover {
+        background: #DCD0A8;
+    }
+
+    #po_tab_add_po_btn::pressed {
+        background: #DD8864;
+    }
+    
+    #po_tab_filter_box {
+       padding-left: 12px;
+    }
+
+    #po_tab_orderby_btn {
+        border: 2px solid black;
+        border-radius: 6px;
+        background: white;
+    }
+
+    #po_tab_orderby_btn::hover {
+        border: 2px solid black;
+        border-radius: 6px;
+        background: #DCD0A8;
+    }
+
+    #po_tab_search_btn {
+        border: 2px solid black;
+        border-radius: 16px;
+        background: white;
+        padding: 2px;
+    }
+
+    #po_tab_search_btn::hover {
+        background: #DCD0A8;
+    }
+
+    #po_tab_search_btn::pressed {
+        background: #DD8864;
+    }
+
+    /* ----------------------------------------------------------------------------------------------------------
+    PO tab
+    ---------------------------------------------------------------------------------------------------------- */
+
+/* PO AND DO PAGE END
+---------------------------------------------------------------------------------------------------------- */
+
+/* Style for Main Window END
+---------------------------------------------------------------------------------------------- */
+
+/* =========================================================================================================================================================================================== */
+
+/* Style for PO Form START 
+---------------------------------------------------------------------------------------------- */
+
+    #scrollAreaWidgetContents {
+        background-color: #DCD0A8;
+    }
+
+    #widget_3 {
+        background-color: #FFF9E5;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+    }
+
+    QLineEdit {
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 0 8px
+    }
+
+    QTextEdit {
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 2px;
+    }
+
+    QComboBox {
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 2px;
+    }
+
+    #po_tab_filter_box::drop-down {
+        border: 0px;
+    }
+
+    #submit_btn {
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 2px;
+        background: white;
+    }
+
+    #submit_btn::hover {
+        background: gray;
+    }
+
+    QComboBox {
+        padding-left: 12px;
+    }
+
+
+/* Style for po Form END
+---------------------------------------------------------------------------------------------- */
