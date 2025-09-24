@@ -1,0 +1,95 @@
+/* Style for */
+/* END */
+
+/* Style for logo title */
+#logo_title {
+    color: #f8fcd7;
+}
+/* END */
+
+/* Style for main window */
+#MainWindow {
+    background-color: #f0f0f0;
+}
+/* END */
+
+/* Style for change menu style Start */
+#change_btn {
+    padding: 5px;
+    border: none;
+    width: 30px;
+    height: 30px;
+}
+/* END */
+
+/* Style for header */
+#header_widget {
+    background-color: #eed995
+}
+/* END */
+
+/* Style for icon only widget */
+    /* Style for widget */
+    #icon_only_sidebar {
+        background-color: #5A827E;
+        width: 50px;
+    }
+
+    /* Style for QPushButton and QLabel */
+    #icon_only_sidebar QPushButton, QLabel {
+        height: 50px;
+        border: none;
+        /* border-bottom: 1px solid #b0b0b0; */
+    }
+
+    #icon_only_sidebar QPushButton:hover {
+        background-color: #3E5F44;
+    }
+
+    /* Style for logo icon */
+    #logo_icon {
+        padding: 5px;
+    }
+/* END */
+
+/* Style for full sidebar widget */
+    #full_sidebar {
+        background-color: #5A827E;
+        width: 50px;
+    }
+
+    /* Style for QPushButton and QLabel */
+    #full_sidebar QPushButton, QLabel {
+        height: 50px;
+        border: none;
+        text-align: left;
+        /* border-bottom: 1px solid #b0b0b0; */
+    }
+
+    #full_sidebar QPushButton:hover {
+        background-color: #3E5F44;
+    }
+
+    /* Style for logo icon */
+    #logo_full {
+        padding: 5px;
+    }
+/* END */
+
+/* Style for stacked widget add PO */
+    /* style for add product button */
+    #add_product {
+        background-color: #5A827E;
+    }
+
+    /* style for add po menu */
+    #add_po_menu {
+        background-color: #FAF6E9;
+    }
+
+    /* style for add po scroll menu */
+    #add_po_scroll_menu {
+        background-color: #FAF6E9;
+    }
+
+/* END */
